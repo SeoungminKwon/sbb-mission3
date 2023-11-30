@@ -1,5 +1,9 @@
 package com.example.sbbmission3;
 
+import com.example.sbbmission3.answer.Answer;
+import com.example.sbbmission3.answer.AnswerRepository;
+import com.example.sbbmission3.question.Question;
+import com.example.sbbmission3.question.QuestionRepository;
 import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
